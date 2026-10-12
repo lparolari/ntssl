@@ -1,6 +1,6 @@
 # Contrastive Learning under Noisy Temporal Self-Supervision for Colonoscopy Videos
 
-[![arXiv](https://img.shields.io/badge/arXiv-2605.12320-b31b1b.svg)](https://arxiv.org/abs/2605.12320)
+[![arXiv](https://img.shields.io/badge/arXiv-2605.12320-b31b1b.svg)](https://arxiv.org/abs/2605.12320) [![MICCAI 2026](https://img.shields.io/badge/MICCAI-2026-0b5fa5.svg)](https://papers.miccai.org/miccai-2026/0202-Paper0772.html)
 
 Luca Parolari¹, Pietro Gori², Lamberto Ballan¹, Carlo Biffi³*, Loic Le Folgoc²* 
 
@@ -12,6 +12,8 @@ Luca Parolari¹, Pietro Gori², Lamberto Ballan¹, Carlo Biffi³*, Loic Le Folgo
 Corresponding author: Luca Parolari \<luca.parolari@studenti.unipd.it\>
 
 🌟 Early accpeted at MICCAI'26 main conference
+
+# [Read the paper (PDF)](https://papers.miccai.org/miccai-2026/paper/0772_paper.pdf)
 
 # Abstract
 
@@ -34,6 +36,7 @@ Corresponding author: Luca Parolari \<luca.parolari@studenti.unipd.it\>
   - [Datasets](#datasets)
   - [Setup](#setup)
 - [Pre-trained Checkpoints](#pre-trained-checkpoints)
+- [Cite](#cite)
 
 # Structure
 
@@ -358,3 +361,20 @@ rspp
 # Pre-trained Checkpoints
 
 You can download and use our pre-trained model at this [link](https://drive.google.com/file/d/13Hif63XdPX1jsMuaW-NA-5gn_rqAZ9Oz/view?usp=sharing).
+
+# Cite
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@InProceedings{ParLuc_Contrastive_MICCAI2026,
+        author = { Parolari, Luca AND Gori, Pietro AND Ballan, Lamberto AND Biffi, Carlo AND Le Folgoc, Loïc},
+        title = { { Contrastive Learning under Noisy Temporal Self-Supervision for Colonoscopy Videos } },
+        booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2026},
+        year = {2026},
+        publisher = {Springer Nature Switzerland},
+        volume = {LNCS 16892},
+        month = {September},
+        page = {pending}
+}
+```
